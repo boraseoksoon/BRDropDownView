@@ -186,10 +186,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
   }
   
   func scrollViewDidScroll(_ scrollView: UIScrollView) {
-    dropdownView.startNotify(scrollView,
-                             firstSectionOffSet: firstOffSet,
-                             secondSectionOffSet: secondOffSet,
-                             thirdSectionOffSet: thirdOffSet,
-                             fourthSectionOffSet: fourthOffSet)
+    dropdownView.observe(scrollView,
+                         firstSectionOffSet: firstOffSet,
+                         secondSectionOffSet: secondOffSet,
+                         thirdSectionOffSet: thirdOffSet,
+                         fourthSectionOffSet: fourthOffSet)
   }
 }

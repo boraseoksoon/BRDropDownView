@@ -432,11 +432,11 @@ extension BRDropDownView {
     }
   }
   
-  public func startNotify(_ scrollView :UIScrollView,
-                          firstSectionOffSet: CGFloat? = nil,
-                          secondSectionOffSet: CGFloat? = nil,
-                          thirdSectionOffSet: CGFloat? = nil,
-                          fourthSectionOffSet: CGFloat? = nil) -> Void {
+  public func observe(_ scrollView :UIScrollView,
+                      firstSectionOffSet: CGFloat? = nil,
+                      secondSectionOffSet: CGFloat? = nil,
+                      thirdSectionOffSet: CGFloat? = nil,
+                      fourthSectionOffSet: CGFloat? = nil) -> Void {
     print("offSet check : ", scrollView.contentOffset.y)
     if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height)) {
       //reach bottom
