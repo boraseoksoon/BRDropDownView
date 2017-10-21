@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'BRDropDownView'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = 'BRDropDownView is DropDown && Up animated UIView Component supporting various style of subview type.'
 
 s.description      = "description : BRDropDownView is DropDown && Up animated UIView Component supporting various style of subview type."
