@@ -1,0 +1,6 @@
+framework module BRDropDownView {
+  umbrella header "BRDropDownView-umbrella.h"
+
+  export *
+  module * { export * }
+}
