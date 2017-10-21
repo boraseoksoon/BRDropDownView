@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BRDropDownView_Example' do
+  pod 'BRDropDownView', :path => '../'
+
+  target 'BRDropDownView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
