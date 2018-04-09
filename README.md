@@ -57,7 +57,7 @@ class ViewController: UIViewController {
 
   let heightOfDropDownView: CGFloat = 100.0
 
-  lazy var dropdownView: BRDropDownView = {
+  lazy var dropdownView: BRDropDownView = { [unowned self] in
   let dropdownView = BRDropDownView(height: heightOfDropDownView,
   dropdownViewStyle: dropdownViewstyle)
   dropdownView.delegate = self
